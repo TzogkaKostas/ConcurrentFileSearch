@@ -3,8 +3,7 @@
 
 The purpose of application is to execute queries in a binary log file and to sort the results.
 The application creates new child processes. Process children compose a process hierarchy
-which is in the form of a binary tree. This tree has internal nodes as well
-leaf nodes.
+which is in the form of a binary tree. This tree has internal nodes as well as leaf nodes.
 The processes of the binary process tree perform the search for records in the file. Leaf nodes take over the search for records
 in parts of the file, while the internal nodes compose the results they get from children
 and promote it to their parents. The final results are sorted after the search process is completed.
