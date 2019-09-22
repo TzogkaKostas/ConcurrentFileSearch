@@ -1,4 +1,4 @@
-# ParallelFileSearch
+# ConcurrentFileSearch
 
 
 The purpose of application is to execute queries in a binary log file and to sort the results.
